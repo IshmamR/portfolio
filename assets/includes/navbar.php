@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow">
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light shadow-sm">
 	<div class="container">
 		<a class="navbar-brand" href="<?php echo(BASE_URL);?>">ISHMAM</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,12 +36,20 @@
 			<!-- Right Side Of Navbar -->
 			<ul class="navbar-nav ml-auto">
 				<!-- Authentication Links -->
-				<li class="nav-item">
-					<a class="nav-link" href="">Login</a>
+				<li class="nav-item dropdown">
+					<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+						Account
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a href="#" class="dropdown-item text-primary text-decoration-none">
+							Login
+						</a>
+						<a href="#" class="dropdown-item text-info text-decoration-none">
+							Register
+						</a>
+					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="">Register</a>
-				</li>
+
 				<li class="nav-item dropdown">
 					<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>Ishmam</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

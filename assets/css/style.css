@@ -9,7 +9,7 @@ body {
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url(../images/bg-1.jpg);
+	background-image: url(../images/bg-lg.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,6 +19,29 @@ body {
 	outline: none !important;
 	box-shadow: none !important;
 }
+
+span.txt {
+	border-right:2px solid #AAA;
+	animation-name: writer;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@keyframes writer {
+	from {border-right:2px solid #AAA;}
+	to {border-right:0px;}
+}
+
+.nav-link {
+	color: #333 !important;
+	padding-bottom: 0.5px;
+}
+.nav-link:hover {
+	color: #000 !important;
+	border-bottom: 0.5px solid #111;
+	padding-bottom: 0;
+}
+.dropdown-toggle:hover {border-bottom: 0px;}
 
 .main {
 	min-height: 90vh;
@@ -53,19 +76,21 @@ body {
 	width: 65%;
 	left: 0;
 	-ms-transform: matrix(1, 0.102, 0, 2, 0, 0);
-	/* IE 9 */
 	-webkit-transform: matrix(1, 0.102, 0, 2, 0, 0);
 	transform: matrix(1, 0.102, 0, 2, 0, 0);
-	/* Standard syntax */
 }
 .degree-right:after {
 	width: 35%;
 	right: 0;
 	-ms-transform: matrix(1, -0.19, 0, 2, 0, 0);
-	/* IE 9 */
 	-webkit-transform: matrix(1, -0.19, 0, 2, 0, 0);
-	transform: matrix(1, -0.19, 0, 2, 0, 0);
-	/* Standard syntax */ 
+	transform: matrix(1, -0.19, 0, 2, 0, 0); 
+}
+.n-zero:before {
+	width: 66%;
+}
+.n-zero:after {
+	width: 36%;
 }
 /*__________________*/
 /*Shaped border end*/

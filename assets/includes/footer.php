@@ -42,7 +42,7 @@
 				
 				<div class="col-md">
 					<div class="mb-4">
-						<h2 class="">Have a Questions?</h2>
+						<h2 class="">Where am I?</h2>
 						<div class="block-23 mb-3">
 							<ul>
 								<li>
@@ -65,7 +65,7 @@
 		</div>
 		<div class="text-center py-2" style="background-color:#111;">
 			<span>
-				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed with <i class="fa fa-heart text-danger"></i> by Ishmam
+				Copyright &copy;<?php echo(date('Y')); ?> All rights reserved | Designed with <i class="fa fa-heart text-danger"></i> by Ishmam
 			</span>
 		</div>
 	</footer>

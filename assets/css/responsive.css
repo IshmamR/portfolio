@@ -1,4 +1,11 @@
 @media only screen and (max-width: 720px) {
+	body {
+		background-image: url('../images/bg-sm.jpg');
+	}
+	h1 {
+		font-size: 3.5rem !important;
+	}
+	
 	.about-para {
 		width: 100%;
 		text-align: center;
@@ -7,5 +14,33 @@
 
 	.skillset {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.txt-web {
+		display: block;
+		width: 100%;
+	}
+	span.type-effect {
+		display: block;
+		min-height: 3rem;
+	}
+}
+
+/*LANDSCAPE*/
+@media only screen and (max-height: 360px) {
+	.main {
+		min-height: 120vh;
+	}
+}
+@media only screen and (max-height: 320px) {
+	.main {
+		min-height: 130vh;
+	}
+}
+@media only screen and (max-height: 376px && max-width: 670px) {
+	.main {
+		min-height: 140vh;
 	}
 }
