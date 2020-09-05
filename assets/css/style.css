@@ -14,6 +14,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	z-index: 0;
 }
 .btn:focus {
 	outline: none !important;
@@ -41,7 +42,9 @@ span.txt {
 	border-bottom: 0.5px solid #111;
 	padding-bottom: 0;
 }
-.dropdown-toggle:hover {border-bottom: 0px;}
+.dropdown-toggle:hover {
+	border-bottom: 0px;
+}
 
 .main {
 	min-height: 90vh;
@@ -92,6 +95,7 @@ span.txt {
 .n-zero:after {
 	width: 36%;
 }
+
 /*__________________*/
 /*Shaped border end*/
 
@@ -104,6 +108,9 @@ span.txt {
 .skillset {
 	font-size: 18px;
 	z-index: 69;
+}
+.resume-button {
+	z-index: 69 !important;
 }
 
 #services {

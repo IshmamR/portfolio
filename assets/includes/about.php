@@ -1,5 +1,5 @@
 <!-- About section -->
-	<div id="about" class="bg-light pt-5">
+	<div id="about" class="bg-light py-5">
 		<h1 class="h1 text-center my-3">About me</h1>
 		
 		<div class="container d-flex flex-row flex-wrap justify-content-around align-items-center">	
@@ -57,5 +57,10 @@
 				</div>
 			</div>
 		</div>
-
+		<!-- DOWNLOAD CV -->
+		<div class="container text-center resume-button pb-2">
+			<a href="<?php echo(BASE_URL.'resume.php'); ?>" class="btn btn-info border-dark rounded-0" target="_blank">
+				Download my CV
+			</a>
+		</div>
 	</div>

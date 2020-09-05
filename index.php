@@ -12,9 +12,8 @@
 </head>
 <body class="bg-light text-dark">
 	<!-- Small screen Background Photo by cottonbro from Pexels && Large screen Background Photo by Pixabay from Pexels -->
-	<?php #include(ROOT_PATH.'/assets/includes/navbar.php'); ?>
 	
-	<!-- Hero section -->
+	<!-- _____Hero section_____ -->
 	<div class="main well">
 		<div class="container text-white hero-text px-3">
 			<h1 class="h1 text-light">
@@ -30,18 +29,20 @@
 	</div>
 	<div class="degree-right n-zero bg-light"></div><!-- The angled shape -->
 	<?php include(ROOT_PATH.'/assets/includes/navbar.php'); ?>
-	<!-- Hero section END -->
+	<!-- _____Hero section END_____ -->
 
-	<!-- About section -->
+
+	<!-- _____About section_____ -->
 	<?php include(ROOT_PATH.'/assets/includes/about.php');?>
+	<!-- The angled shape -->
+	<div class="degree-right n-one bg-light"></div>
+	<!-- ____About section END_____ -->
 
-	<div class="degree-right bg-light"></div><!-- The angled shape -->
-	<!-- About section END -->
 
-	<!-- SERVICE SECTION -->
+	<!-- _____SERVICE SECTION_____ -->
 	<div id="services" class="bg-light d-flex flex-column text-center py-5">
 		<div class="container-fluid">
-			<h1 class="mt-5">WHAT I DO</h1>
+			<h2 class="h2 mt-5">WHAT I DO</h2>
 			<hr style="width:60%">
 			<div class="d-flex flex-wrap flex-row justify-content-center">
 				<div class="service p-3">
@@ -64,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- SERVICE SECTION END -->
+	<!-- _____SERVICE SECTION END_____ -->
 
 	<!-- FOOTER -->
 	<?php include(ROOT_PATH.'/assets/includes/footer.php');?>
