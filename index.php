@@ -51,11 +51,11 @@
 	<!-- About section END -->
 
 	<!-- SERVICE SECTION -->
-	<div id="services" class="bg-light d-flex flex-column text-center pt-5">
-		<div class="container">
+	<div id="services" class="bg-light d-flex flex-column text-center py-5">
+		<div class="container-fluid">
 			<h1 class="mt-5">WHAT I DO</h1>
 			<hr style="width:60%">
-			<div class="d-flex flex-wrap flex-row justify-content-around">
+			<div class="d-flex flex-wrap flex-row justify-content-center">
 				<div class="service p-3">
 					<i class="mx-1 fas fa-eye fa-lg"></i>
 					<i class="mx-1 fas fa-code fa-lg"></i>
@@ -66,7 +66,7 @@
 					<i class="mx-1 fas fa-window-maximize fa-lg"></i>
 					<i class="mx-1 fas fa-network-wired fa-lg"></i>
 					<h3>Web development</h3>
-					<p>I help with creating and developing your brands website.</p>
+					<p>I help with creating and developing your personal and brand's website.</p>
 				</div>
 				<div class="service p-3">
 					<i class="fab fa-wordpress fa-lg"></i>
@@ -78,7 +78,9 @@
 	</div>
 	<!-- SERVICE SECTION END -->
 
+	<!-- FOOTER -->
 	<?php include(ROOT_PATH.'/assets/includes/footer.php');?>
+	<!-- FOOTER END -->
 
 	<!-- ICONS -->
 	<script src="https://kit.fontawesome.com/e36cbd79af.js" crossorigin="anonymous"></script>
