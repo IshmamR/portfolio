@@ -70,8 +70,14 @@ body {
 /*__________________*/
 /*Shaped border end*/
 
-.progress-bar {
-	background-color: #323232;
+.about-para {
+	text-align: left;
+	width: 60%;
+	font-size: 20px;
+}
+
+.skillset {
+	z-index: 69;
 }
 
 #services {

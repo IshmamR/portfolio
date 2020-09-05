@@ -1,4 +1,7 @@
-<?php include('path.php'); ?>
+<?php 
+	include('path.php'); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,16 +45,9 @@
 	<!-- Hero section END -->
 
 	<!-- About section -->
-	<div id="about" class="text-center bg-light py-5">
-		<h1 class="h1 my-3">About me</h1>
-		<div class="container">
-			<p class="ap">Hello! I'm Ishmam, a web developer and website designer, and a guy slighty obsessed with code quality. I'm also the cheif editor of <a class="ap text-decoration-none text-body" href="https://doftv.xyz" target="_blank" title="doftv.xyz | an online news portal"><b>DOF TV</b></a>. I’m currently available for freelance work. If you have a project that you want to get started or think you need any kind of help with web development, then <a href="#" class="text-decoration-none text-dark"><b>get in touch</b></a>.</p>
-		</div>
-		<!-- SKILLS Section -->
-		<?php include(ROOT_PATH.'/assets/includes/skills.php');?>
+	<?php include(ROOT_PATH.'/assets/includes/about.php');?>
 
-	</div>
-	<div class="degree-right bg-light pt-4"></div><!-- The angled shape -->
+	<div class="degree-right bg-light"></div><!-- The angled shape -->
 	<!-- About section END -->
 
 	<!-- SERVICE SECTION -->

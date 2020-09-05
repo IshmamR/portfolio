@@ -1,0 +1,11 @@
+@media only screen and (max-width: 720px) {
+	.about-para {
+		width: 100%;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.skillset {
+		width: 100%;
+	}
+}
