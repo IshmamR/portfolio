@@ -67,6 +67,7 @@
 	</div>
 	<!-- _____SERVICE SECTION END_____ -->
 
+
 	<!-- FOOTER -->
 	<?php include(ROOT_PATH.'/assets/includes/footer.php');?>
 	<!-- FOOTER END -->

@@ -1,5 +1,5 @@
 
-	<footer class="footer text-light pt-3" style="background-color: #333">
+	<footer class="footer text-light pt-3" style="background-color: #222;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md">
