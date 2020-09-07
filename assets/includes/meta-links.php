@@ -16,5 +16,3 @@
 	<script type="text/javascript" src="assets/frameworks/bootstrap.bundle.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/frameworks/bootstrap.min.css">
 	
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">

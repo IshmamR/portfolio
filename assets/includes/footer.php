@@ -69,3 +69,7 @@
 			</span>
 		</div>
 	</footer>
+
+	<!-- ICONS -->
+	<script src="https://kit.fontawesome.com/e36cbd79af.js" crossorigin="anonymous"></script>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>

@@ -8,6 +8,9 @@
 	<title>Ishmam's</title>
 	<!-- meta-links -->
 	<?php include(ROOT_PATH.'/assets/includes/meta-links.php'); ?>
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
 <body class="bg-light text-dark">
@@ -72,9 +75,6 @@
 	<?php include(ROOT_PATH.'/assets/includes/footer.php');?>
 	<!-- FOOTER END -->
 
-	<!-- ICONS -->
-	<script src="https://kit.fontawesome.com/e36cbd79af.js" crossorigin="anonymous"></script>
-	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 	<!-- Custom JS -->
 	<script src="assets/js/main.js" type="text/javascript"></script>

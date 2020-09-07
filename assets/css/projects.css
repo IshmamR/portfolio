@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body {
+	padding:0;
+	margin:0;
+	background-color: #E9E9E9;
+	color: #111;
+}
+
+/*===NAVBAR===*/
+.navbar-nav > .nav-item > .nav-link {
+	color: #444 !important;
+	font-weight: 20%;
+}
+.navbar-nav > .nav-item > .nav-link:hover {
+	background-color: #FFF !important;
+	color: #000 !important;
+}
+/*---NAVBAR END---*/
+
+/*/ ____TABS____ /*/
+/*================*/
+/* not active */
+.nav-tabs > .nav-link {
+	text-align: center;
+	transition: 0.1s;
+	border-top: 0.5px solid #CDCDCD;
+	border-left: 0.5px solid #CDCDCD;
+	border-right: 0.5px solid #CDCDCD;
+}
+.nav-tabs > .nav-link:hover {
+	border-top: 0.5px solid #AAA;
+	border-left: 0.5px solid #AAA;
+	border-right: 0.5px solid #AAA;
+}
+.nav-tabs .nav-link:not(.active) {
+	background-color: #E9E9E9;
+	color: #313131;
+}
+/* active*/
+.nav-tabs > .nav-link.active {
+	background-color: #FFF;
+	color: #050505;
+	font-weight: 600;
+}
+/*===================*/
+/*/ ___TABS END___ /*/
+
+#myTabContent {
+	min-height: 70vh;
+	/*widows: 90% !important;
+	margin: auto;*/
+}
+
+
+/*PROJECTS SECTION*/
+/*================*/
+.item, .item-img, .item-over {
+	width: 330px;
+	height: 200px;
+}
+.item {
+	margin: 20px 15px;
+	overflow: hidden;
+}
+.item-img {
+	object-fit: cover;
+	position: relative;
+}
+.item-over {
+	position: absolute;
+	top: 100%;
+	background-color: rgba(0,0,0,0.8);
+	transition: 0.5s ease;
+}
+.item:hover .item-over {
+	top: 20%;
+}
+
+/*PROJECT HOVER EFFECT END*/
+
+@media only screen and (max-width: 1030px) {
+	.item, .item-img, .item-over {
+		width: 280px;
+		height: 190px;
+	}
+}
+@media only screen and (max-width: 780px) {
+	.item, .item-img, .item-over {
+		width: 200px;
+		height: 140px;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.item, .item-img, .item-over {
+		width: 350px;
+		height: 180px;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.item, .item-img, .item-over {
+		width: 300px;
+		height: 170px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.item, .item-img, .item-over {
+		width: 260px;
+		height: 160px;
+	}
+}
+@media only screen and (max-width: 290px) {
+	.item, .item-img, .item-over {
+		width: 210px;
+		height: 140px;
+	}
+}
