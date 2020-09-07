@@ -15,8 +15,8 @@
 		</div>
 
 		<div class="container">
-			<h3 class="h3 mt-5">
-				<span class="text-left border-bottom border-dark">Web development skills:</span>
+			<h3 class="h3 my-4">
+				<span class="text-left border-bottom border-dark">Web dev skills:</span>
 			</h3>
 			<div class="d-flex flex-row flex-wrap justify-content-around">
 				<div class="skillset">

@@ -15,6 +15,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	z-index: 0;
+	font-family: 'Cairo', sans-serif;
 }
 .btn:focus {
 	outline: none !important;
@@ -73,6 +74,7 @@ span.txt {
 	position: absolute;
 	content: '';
 	height: 50px;
+	/*background-color: #E9E9E9 !important;*/
 	background: #F9F8FA !important;
 	z-index: 2;
 	bottom: -25px; 
@@ -89,13 +91,15 @@ span.txt {
 	right: 0;
 	-ms-transform: matrix(1, -0.19, 0, 2, 0, 0);
 	-webkit-transform: matrix(1, -0.19, 0, 2, 0, 0);
-	transform: matrix(1, -0.19, 0, 2, 0, 0); 
+	transform: matrix(1, -0.19, 0, 2, 0, 0);
 }
 .n-zero:before {
 	width: 66%;
+	border-top: 1px dotted #111;
 }
 .n-zero:after {
-	width: 36%;
+	width: 35%;
+	border-top: 1px dotted #111;
 }
 
 /*__________________*/

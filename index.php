@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body class="bg-light text-dark">
+<body class="text-dark">
 	<!-- Small screen Background Photo by cottonbro from Pexels && Large screen Background Photo by Pixabay from Pexels -->
 	
 	<!-- _____Hero section_____ -->

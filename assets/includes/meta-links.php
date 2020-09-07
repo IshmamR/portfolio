@@ -16,3 +16,8 @@
 	<script type="text/javascript" src="assets/frameworks/bootstrap.bundle.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/frameworks/bootstrap.min.css">
 	
+	<!-- FONT(CAIRO) -->
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+	<!-- PageLoader -->
+	<link rel="stylesheet" type="text/css" href="assets/frameworks/pageLoader/jquery.pageLoading.css">

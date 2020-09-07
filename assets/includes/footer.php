@@ -73,3 +73,24 @@
 	<!-- ICONS -->
 	<script src="https://kit.fontawesome.com/e36cbd79af.js" crossorigin="anonymous"></script>
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+	<!-- PageLoader -->
+	<script type="text/javascript" src="assets/frameworks/pageLoader/jquery.pageLoading.js"></script>
+	<script type="text/javascript">
+	pageLoading({
+		// background color of the progress bar
+		barColor:'#0900ff',
+		// top position of the progress bar
+		barTop:'400px',
+		// top position of the percentage text
+		textTop:'350px',
+		// background color of the loading overlay
+		backColor:'rgba(25, 25, 35, 0.9)',
+		// background color of the progress bar
+		backBarColor:'#dfe8ea',
+		// text inside the progress bar
+		text:'Loading <b>{process} %</b>',
+		// show of hide the percentage text
+		textVisible:true,
+	});
+	</script>
