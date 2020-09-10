@@ -1,6 +1,6 @@
 <?php
 	include('path.php');
-	$filename = ROOT_PATH.'\assets\files\resume.pdf';
+	$filename = ROOT_PATH.'/assets/files/resume.pdf';
 
 	header("Content-type:application/pdf");
 	

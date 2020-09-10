@@ -54,8 +54,6 @@ body {
 
 #myTabContent {
 	min-height: 70vh;
-	/*widows: 90% !important;
-	margin: auto;*/
 }
 
 
@@ -68,6 +66,7 @@ body {
 .item {
 	margin: 20px 15px;
 	overflow: hidden;
+	border: 5px solid #777;
 }
 .item-img {
 	object-fit: cover;

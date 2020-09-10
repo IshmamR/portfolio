@@ -15,7 +15,7 @@
 <body>
 	<?php include(ROOT_PATH.'/assets/includes/navbar.php'); ?>
 	<div class="container py-4">
-		<h1>Here are my recent projects</h1>
+		<h1>Some of my recent projects...</h1>
 	</div>
 
 	<!-- TABS -->
