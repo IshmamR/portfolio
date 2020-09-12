@@ -4,6 +4,9 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="description" content="Portfolio website of Ishmam Rahman">
 	<meta name="author" content="Ishmam">
+
+	<!-- GOOGLE VERIFY -->
+	<meta name="google-site-verification" content="9MZNXWUFRFTyx0gEZwYITO2mdbvV-CLU5pKI6UF7_7o" />
 	
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
 
