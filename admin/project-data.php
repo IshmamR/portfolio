@@ -1,7 +1,7 @@
 <?php
 	$projects = [
 		[
-			'title' => 'chatApp',
+			'title' => 'ChatApp',
 			'description' => 'Realtime online chat application built with Javascript and Firebase.',
 			'img' => 'chatApp.png',
 			'class' => 'js',
@@ -43,7 +43,7 @@
 		[
 			'title' => 'COVID counter',
 			'description' => 'COVID-19 patients counter.',
-			'img' => 'covid-counter-v1.png',
+			'img' => 'covid-counter-v1.PNG',
 			'class' => 'php',
 			'demo' => 'http://ishmam.rf.gd/Covid-Counter/index.php',
 			'github' => ''
@@ -59,7 +59,7 @@
 		[
 			'title' => 'Beautika',
 			'description' => 'A beauty and spa center website.',
-			'img' => 'beautika.png',
+			'img' => 'beautika.PNG',
 			'class' => 'html-css',
 			'demo' => 'https://beautika.netlify.app/',
 			'github' => ''
