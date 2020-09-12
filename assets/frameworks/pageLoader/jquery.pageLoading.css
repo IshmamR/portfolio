@@ -18,10 +18,10 @@
 	z-index: 99999998;
 }
 .pageLoadingid13{
-	background-color: #79c4df;
+	background-color: #fff;/*#79c4df*/
 	height: 5px;
 	width: 10%;
-	box-shadow: 0 0 10px #75b5df;
+	box-shadow: 0 0 10px #fff; /*#75b5df*/
 	z-index: 99999999;
 }
 .pageLoadingid12{

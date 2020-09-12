@@ -79,7 +79,7 @@
 
 pageLoading({
 	// background color of the progress bar
-	barColor:'#0900ff',
+	barColor: '#ffffff', //'#0900ff',
 	// top position of the progress bar
 	barTop:'400px',
 	// top position of the percentage text

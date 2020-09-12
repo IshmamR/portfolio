@@ -1,11 +1,14 @@
 <?php 
 	include('path.php'); 
+	include(ROOT_PATH.'/admin/project-data.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Ishmam's projects</title>
+	<!-- PageLoader -->
+	<script type="text/javascript" src="assets/frameworks/pageLoader/jquery.pageLoading.js" defer></script>
 	<!-- meta-links -->
 	<?php include(ROOT_PATH.'/assets/includes/meta-links.php'); ?>
 
@@ -30,6 +33,9 @@
 			<a class="nav-link flex-fill" id="php-tab" href="#php" data-toggle="tab" role="tab" aria-controls="php" aria-selected="false" data-filter=".php">
 				PHP
 			</a>
+			<a class="nav-link flex-fill" id="wp-tab" href="#wp" data-toggle="tab" role="tab" aria-controls="wp" aria-selected="false" data-filter=".wp">
+				WordPress
+			</a>
 			<a class="nav-link active flex-fill" id="all-tab" href="#all" data-toggle="tab" role="tab" aria-controls="all" aria-selected="true" data-filter="*">
 				All
 			</a>
@@ -39,29 +45,31 @@
 
 	<!-- CONTENTS -->
 	<div class="container bg-white shadow-sm mb-4">
-	<div id="myTabContent" class="">
+		<div id="myTabContent">
 		<!-- ALL PROJECTS -->
-		<?php for($i = 0; $i < 12; $i++) { ?>
-			<?php if ($i%2==0) {$clas = 'html-css';}else{$clas ='js';} ?>
-		<div class="item <?php echo($clas); ?>">
-			<div class="">
-				<img class="item-img" src="assets/images/bg.jpg" />
+		<?php foreach ($projects as $project): ?>
+			<div class="item <?php echo($project['class']); ?>">
+				<div class="">
+					<img class="item-img" src="admin/project-imgs/<?php echo($project['img']);?>" />
+				</div>
+				<div class="item-over text-center text-white px-2">
+					<h4 class="h4"><?php echo($project['title']); ?></h4>
+					<p><?php echo($project['description']); ?><br><br>
+					<b>View:</b> <a href="<?php echo($project['demo']); ?>" class="text-light"><i class="fas fa-eye fa-lg" title="view demo" target="_blank"></i></a> 
+					<?php if($project['github'] !== ''): ?>
+					<b>Github:</b> <a href="<?php echo($project['github']); ?>" class="text-light" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+					<?php endif; ?>
+					</p>
+				</div>
 			</div>
-			<div class="item-over text-center text-white px-2">
-				<h4 class="h4">Beutika</h4>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Sit, illo repellendus eius ea commodi. <br>
-				<b>View:</b> <a href="#" class="text-light"><i class="fas fa-eye fa-lg" title="view demo"></i></a> <b>Github:</b> <a href="#" class="text-light"><i class="fab fa-github fa-lg"></i></a>
-				</p>
-			</div>
-		</div>
-		<?php }; ?>
+		<?php endforeach ?>
 		<!-- <div class="item html-css">beutika</div>
 		<div class="item js">chatapp</div>
 		<div class="item php">ishita</div>
 		<div class="item js">todolist</div>
 		<div class="item js">passgenx</div> -->
+		</div>
 	</div>
-</div>
 
 	<!-- FOOTER -->
 	<?php include(ROOT_PATH.'/assets/includes/footer.php'); ?>
@@ -72,7 +80,6 @@
 		var $grid = $('#myTabContent').isotope({
 			itemSelector: '.item',
 			layoutMode: 'fitRows',
-			// percentPosition: true,
 			masonry: {
 				columnWidth: 35,
 				isFitWidth: true

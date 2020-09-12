@@ -132,9 +132,13 @@ span.txt {
 	border-radius: 3px;
 	background-color: rgba(255,255,255,0.6);
 	background-image: linear-gradient(150deg, #EAEAEA, #FCFCFC);
-	box-shadow: 2px 2px 2px 1px #CCC, 3px 3px 4px 1px #CDCDCD, -1px -1px 1px 1px #FEFEFE;
+	/*box-shadow: 2px 2px 2px 1px #CCC, 3px 3px 4px 1px #CDCDCD, -1px -1px 1px 1px #FEFEFE;*/
 	font-size: 1.5rem;
 }
 .service p {
 	font-size: 1.5rem;
+}
+.help h5 {
+	width: 60%;
+	margin: auto;
 }

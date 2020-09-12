@@ -9,7 +9,7 @@
 			</div>
 			
 			<div class="about-para">
-				<p>Hello! I'm Ishmam, a web developer and website designer, and a guy slighty obsessed with code quality. I'm also the cheif editor of <a class="ap text-decoration-none text-body" href="https://doftv.xyz" target="_blank" title="doftv.xyz | an online news portal"><b>DOF TV</b></a>. <br>
+				<p>Hello! I'm Ishmam, a web developer and website designer, and a guy slighty obsessed with code quality. I'm also the cheif editor of <a class="ap text-decoration-none text-body" href="https://doftv.xyz" target="_blank" title="doftv.xyz | an online news portal"><strong>DOF TV</strong></a>. <br>
 				I’m currently available for freelance work. If you have a project that you want to get started or think you need any kind of help with web development, then <a href="#" class="text-decoration-none text-dark"><b>get in touch</b></a>. :)</p>
 			</div>
 		</div>
@@ -33,7 +33,7 @@
 					<ul>
 						<li>Bootstrap</li>
 						<li>Jquery</li>
-						<li>Laravel</li>
+						<!-- <li>Laravel</li> -->
 						<li>SASS</li>
 						<li>Materialize css</li>
 						<li>tailwindcss</li>

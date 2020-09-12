@@ -7,7 +7,7 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<!-- Left Side Of Navbar -->
-			<ul class="navbar-nav mr-auto">
+			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo(BASE_URL);?>">Home</a>
 				</li>
@@ -20,23 +20,23 @@
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo(BASE_URL.'projects.php');?>">Projects</a>
 				</li>
-				<li class="nav-item dropdown">
+				<!--<li class="nav-item dropdown">
 					<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>Blog</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-						<a href="<?php echo(BASE_URL.'/posts') ?>" class="dropdown-item text-dark text-decoration-none">
+						<a href="<?php //echo(BASE_URL.'/posts') ?>" class="dropdown-item text-dark text-decoration-none">
 							All posts
 						</a>
 						<a href="/posts/create" class="dropdown-item text-success text-decoration-none">
-							Add post <!-- Only for admin -->
+							Add post  Only for admin
 						</a>
 					</div>
-				</li>
+				</li>-->
 			</ul>
 
 			<!-- Right Side Of Navbar -->
-			<ul class="navbar-nav ml-auto">
+			<!-- <ul class="navbar-nav ml-auto"> -->
 				<!-- Authentication Links -->
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
 						Account
 					</a>
@@ -59,8 +59,8 @@
 						<form id="logout-form" action="" method="POST" class="d-none">				
 						</form>
 					</div>
-				</li>
-			</ul>
+				</li> -->
+			<!-- </ul> -->
 		</div>
 	</div>
 </nav>

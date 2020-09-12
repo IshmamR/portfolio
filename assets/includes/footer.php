@@ -7,16 +7,16 @@
 						<h2 class="">Ishmam</h2>
 						<p>"A random quote..."</p>
 						<div class=" mt-2">
-							<a href="#" class="text-decoration-none text-light">
+							<!-- <a href="#" class="text-decoration-none text-light">
 								<i class="fa fa-twitter fa-lg mr-3"></i>
-							</a>
-							<a href="#" class="text-decoration-none text-light">
+							</a> -->
+							<a href="https://www.facebook.com/ishmam.rahman.5201" class="text-decoration-none text-light" target="_blank">
 								<i class="fa fa-facebook fa-lg mr-3"></i>
 							</a>
-							<a href="#" class="text-decoration-none text-light">
+							<a href="https://github.com/IshmamR" class="text-decoration-none text-light" target="_blank">
 								<i class="fab fa-github fa-lg mr-3"></i>
 							</a>
-							<a href="#" class="text-decoration-none text-light">
+							<a href="https://www.linkedin.com/in/ishmam-rahman-8340411b2/" class="text-decoration-none text-light" target="_blank">
 								<i class="fab fa-linkedin fa-lg"></i>
 							</a>
 						</div>
@@ -53,7 +53,7 @@
 									<i class="icon fa fa-phone mr-2"></i><span class="text">+88 01775415093</span>
 								</li>
 								<li>
-									<a href="#" class="text-decoration-none text-light">
+									<a href="mailto:ishmam785@gmail.com" class="text-decoration-none text-light" target="_blank">
 										<i class="icon fa fa-envelope mr-2"></i><span class="text">ishmam785@gmail.com</span>
 									</a>
 								</li>
@@ -73,6 +73,3 @@
 	<!-- ICONS -->
 	<script src="https://kit.fontawesome.com/e36cbd79af.js" crossorigin="anonymous"></script>
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-	<!-- PageLoader -->
-	<script type="text/javascript" src="assets/frameworks/pageLoader/jquery.pageLoading.js"></script>
