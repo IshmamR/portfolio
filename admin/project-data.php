@@ -3,7 +3,7 @@
 		[
 			'title' => 'ChatApp',
 			'description' => 'Realtime online chat application built with Javascript and Firebase.',
-			'img' => 'chatApp.png',
+			'img' => 'chat-app.png',
 			'class' => 'js',
 			'demo' => 'http://ishmam.rf.gd/chatApp/index.php',
 			'github' => 'https://github.com/IshmamR/ChatApp'
