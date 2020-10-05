@@ -1,12 +1,12 @@
 <?php
 	$projects = [
 		[
-			'title' => 'ChatApp',
-			'description' => 'Realtime online chat application built with Javascript and Firebase.',
-			'img' => 'chat-app.png',
-			'class' => 'js',
-			'demo' => 'http://ishmam.rf.gd/chatApp/index.php',
-			'github' => 'https://github.com/IshmamR/ChatApp'
+			'title' => 'E-com',
+			'description' => 'Multi-purpose e-commerce website',
+			'img' => 'ecom.png',
+			'class' => 'wp',
+			'demo' => 'http://ishmams.epizy.com',
+			'github' => ''
 		],
 		[
 			'title' => 'LaM(Leave a msg)',
@@ -23,6 +23,22 @@
 			'class' => 'html-css',
 			'demo' => 'https://limolight.netlify.app/',
 			'github' => ''
+		],
+		[
+			'title' => 'PassGen-X',
+			'description' => 'Random password generator web app.',
+			'img' => 'passgenx.png',
+			'class' => 'js',
+			'demo' => 'https://passgenx.netlify.app/',
+			'github' => ''
+		],
+		[
+			'title' => 'ChatApp',
+			'description' => 'Realtime online chat application built with Javascript and Firebase.',
+			'img' => 'chat-app.png',
+			'class' => 'js',
+			'demo' => 'http://ishmam.rf.gd/chatApp/index.php',
+			'github' => 'https://github.com/IshmamR/ChatApp'
 		],
 		[
 			'title' => 'BlackJack game',
