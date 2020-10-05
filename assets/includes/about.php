@@ -27,6 +27,8 @@
 						<li>PHP</li>
 						<li>MySQL</li>
 					</ul>
+					<h5>Browser extension development:</h5>
+						<li>Chrome, Firefox</li>
 				</div>
 				<div class="skillset">
 					<h4>Frameworks:</h4>
