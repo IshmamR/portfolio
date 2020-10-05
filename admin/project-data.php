@@ -3,7 +3,7 @@
 		[
 			'title' => 'E-com',
 			'description' => 'Multi-purpose e-commerce website',
-			'img' => 'ecom.png',
+			'img' => 'ecom.PNG',
 			'class' => 'wp',
 			'demo' => 'http://ishmams.epizy.com',
 			'github' => ''
@@ -27,7 +27,7 @@
 		[
 			'title' => 'PassGen-X',
 			'description' => 'Random password generator web app.',
-			'img' => 'passgenx.png',
+			'img' => 'passgenx.PNG',
 			'class' => 'js',
 			'demo' => 'https://passgenx.netlify.app/',
 			'github' => ''
