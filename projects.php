@@ -55,7 +55,7 @@
 				<div class="item-over text-center text-white px-2">
 					<h4 class="h4"><?php echo($project['title']); ?></h4>
 					<p><?php echo($project['description']); ?><br><br>
-					<b>View:</b> <a href="<?php echo($project['demo']); ?>" class="text-light"><i class="fas fa-eye fa-lg" title="view demo" target="_blank"></i></a> 
+					<b>View:</b> <a href="<?php echo($project['demo']); ?>" class="text-light" target="_blank"><i class="fas fa-eye fa-lg" title="view demo"></i></a> 
 					<?php if($project['github'] !== ''): ?>
 					<b>Github:</b> <a href="<?php echo($project['github']); ?>" class="text-light" target="_blank"><i class="fab fa-github fa-lg"></i></a>
 					<?php endif; ?>
