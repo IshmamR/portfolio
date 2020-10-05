@@ -25,8 +25,8 @@
 			</h1>
 			<h5>Hi. I'm <span class="h2 text-light">Ishmam</span>, a web developer currently living in Bangladesh.</h5>
 			<div class="flex flex-row flex-wrap justify-content-around mt-3">
-				<a href="#" class="btn btn-light btn-lg rounded-0 px-5 mb-2" title="I am available for freelance work."><strong>Contact me</strong></a>
-				<!-- <a href="#" class="btn btn-dark btn-lg border-white rounded-0 px-3 mb-2">Got a question?</a> -->
+				<a href="mailto:ishmam785@gmail.com" class="btn btn-light btn-lg rounded-0 px-5 mb-2" title="I am available for freelance work."><strong>Contact me</strong></a>
+				<a href="<?php echo(BASE_URL.'projects.php'); ?>" class="btn btn-dark btn-lg border-white rounded-0 px-5 mb-2">My Projects</a>
 			</div>
 		</div>
 	</div>
