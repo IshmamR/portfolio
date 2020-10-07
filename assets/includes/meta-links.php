@@ -11,6 +11,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- FACEBOOK -->
+	<!-- <meta property="fb:app_id" content="1234567890" />  -->
+	<meta property="og:type" content="portfolio" /> 
+	<meta property="og:url" content="http://ishmams.herokuapp.com" /> 
+	<meta property="og:title" content="Portfolio" /> 
+	<meta property="og:image" content="https://ishmams.herokuapp.com/assets/images/profile.jpg" /> 
+	<meta property="og:description" content="Portfolio website of Ishmam Rahman" />
+	<!-- __FACEBOOK__ -->
 	
 	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
