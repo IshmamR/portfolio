@@ -8,6 +8,14 @@
 			'demo' => 'http://ishmams.epizy.com',
 			'github' => ''
 		],
+        [
+			'title' => 'Info Bottle',
+			'description' => 'Anime information website created with React.js',
+			'img' => 'info-bottle.PNG',
+			'class' => 'js',
+			'demo' => 'https://a-nimee.netlify.app/',
+			'github' => 'https://github.com/IshmamR/info-bottle'
+		],
 		[
 			'title' => 'LaM(Leave a msg)',
 			'description' => 'Have anything on mind? Leave any message you want to.',
